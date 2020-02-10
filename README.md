@@ -13,3 +13,12 @@ https://imgur.com/flVrT5q
 
 El tablero TRELLO con el backlog y las historias de usuarios se encuentra en el siguiente link:
 https://trello.com/b/buKWyG2T/tecnoblog
+
+
+Pasos para levantar el proyecto
+
+  -Clonar el repositorio
+- Rails db:create
+- Rails db:migrate
+- Rails db:seed
+- Rails s
