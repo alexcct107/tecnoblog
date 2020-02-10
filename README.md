@@ -11,6 +11,9 @@ el diagrama conceptual muestra las principales entidades con las que trabajará 
 Diagrama Conceptual
 https://imgur.com/flVrT5q
 
+![alt text][logic]
+[logic]: /logico.png "diagrama logico"
+
 El tablero TRELLO con el backlog y las historias de usuarios se encuentra en el siguiente link:
 https://trello.com/b/buKWyG2T/tecnoblog
 
