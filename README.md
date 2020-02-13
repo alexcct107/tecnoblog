@@ -1,24 +1,27 @@
-# README
+#TecnoBlog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Proyecto de integración de contenidos en desafio latam G28 Full Stack
 
-Things you may want to cover:
+El proyecto es un ejemplo de aplicacion web construida con Ruby on rails 5.2.3 y base de datos Postgresql.
 
-* Ruby version
+El proyecto es un blog de tecnología como CNET o FLIPBOARD.
 
-* System dependencies
+el diagrama conceptual muestra las principales entidades con las que trabajará la aplicacion
 
-* Configuration
+Diagrama Conceptual
+https://imgur.com/flVrT5q
 
-* Database creation
+![alt text][logic]
+[logic]: /logico.png "diagrama logico"
 
-* Database initialization
+El tablero TRELLO con el backlog y las historias de usuarios se encuentra en el siguiente link:
+https://trello.com/b/buKWyG2T/tecnoblog
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Pasos para levantar el proyecto
 
-* Deployment instructions
-
-* ...
+  -Clonar el repositorio
+- Rails db:create
+- Rails db:migrate
+- Rails db:seed
+- Rails s
