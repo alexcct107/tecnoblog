@@ -25,3 +25,6 @@ Pasos para levantar el proyecto
 - Rails db:migrate
 - Rails db:seed
 - Rails s
+
+Subida a producción a través de HEROKU con el siguiente link:
+https://immense-reaches-95111.herokuapp.com/
