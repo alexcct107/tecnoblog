@@ -1,6 +1,6 @@
 class Article < ApplicationRecord
-    belongs_to :user
-    has_many :comments
+    belongs_to :user 
+    has_many :comments, dependent: :delete_all
     validates :title, presence: true, uniqueness: true
     validates :body, presence: true, length: {minimum: 20}
     before_save :set_visits_count
