@@ -6,6 +6,12 @@
 <% end %>
 
 <div class="field">
+   <% @article.categories.each do |category| %>
+    <%= link_to category.name, category,style:"color:#{category.color};"%>
+<% end %>   
+</div>
+
+<div class="field">
     <%= image_tag @article.cover.url(:thumb) %>
 
 </div>
@@ -16,6 +22,10 @@ Visitas: <%= @article.visits_count %>
 
 <div>
     <%= @article.body %>
+</div>
+
+<div>
+    
 </div>
 
 <div class="field">
