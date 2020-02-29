@@ -1,4 +1,6 @@
 class Article < ApplicationRecord
+
+
     belongs_to :user 
     has_many :comments, dependent: :delete_all
     has_many :has_categories
@@ -17,8 +19,10 @@ class Article < ApplicationRecord
     end
     
     def update_visits_count
-        self.update(visits_count: self.visits_count + 1)
-        end
+        self.update(visits_count: self.visits_count + 1)            
+end
+
+
 
     private
 
