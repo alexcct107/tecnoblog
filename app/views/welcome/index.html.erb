@@ -1,7 +1,12 @@
 
 <% if user_signed_in? %>
 
-<h1>Bienvenido a TecnoBlog <%= current_user.email%> </h1>
+<h1 style="text-align: center;">Bienvenido a TecnoBlog <%= current_user.email%> </h1>
 
 <% end %>
+
+
+<div class="btn be-red">
+    <%= link_to "Crear Articulo", new_article_path(@article) %>
+</div>
 
